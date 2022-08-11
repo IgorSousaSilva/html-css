@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family:'amore' ;
+    src: url('fontes/amore.ttf') format('truetype');
+    font-weight: normal;
+}
+
+#BF1F3C
+#A60303
+#730202
+#400101
+#260101
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+nav {
+    
+    background-image: linear-gradient(to bottom, #A60303, #400101);
+      color: white;
+    font-family: 'Tangerine', cursive;
+    padding: 10px;
+    font-size: 1.5em;
+    
+
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #400101;
+    border-bottom: 5px;
+}
+header {
+     background-color:  #A60303;
+     background-image: linear-gradient(to bottom, #A60303, #400101);
+      color: white;
+      text-align: center;
+      font-family: 'Tangerine', cursive;
+      font-weight: 400;
+      font-size: 2em;
+      padding: 30px;
+    
+
+}
+main {
+     background-color: #bf1f3c; 
+     color: white;
+     min-width: 300px;
+     max-width: 1000px;
+     margin: auto;
+     padding: 20px;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.084);
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+main  h1 {
+    font-family: 'amore', sans-serif;
+    font-size: 2em;
+    
+    
+}
+main p {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.8em;
+
+}
+main h2 {
+    font-size: 1.8em;
+    font-family: 'amore';
+    line-height: 2em;
+    
+    
+}
+main h2 > abbr {
+    text-decoration: none;
+    
+}
+main h2 > abbr:hover{
+    text-decoration: underline;
+    color: #400101;
+    border-radius: 20px;
+}
+main img {
+    line-height: 2em;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+main p {
+    font-size: 2em;
+    line-height: 2em;
+}
+main p > a {
+    color: white;
+    text-decoration: none;
+}
+main p > a:hover {
+    text-decoration: underline;
+    color: #400101;
+    border-radius: 20px;
+
+}
+aside{
+    background-color: #400101;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+aside h3 {
+    font-family: 'amore';
+    font-size: 1.5em;
+}
+aside ol {
+    list-style-position: inside;
+    columns: 2;
+    font-size: 1.2em;
+}
+main footer {
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    
+
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
