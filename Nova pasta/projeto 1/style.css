@@ -111,6 +111,21 @@ main p > a:hover {
     border-radius: 20px;
 
 }
+div {
+    background-color: white;
+    line-height: 2em;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+div > video {
+
+    display: block;
+    margin: auto;
+    
+
+}
 aside{
     background-color: #400101;
     padding: 10px;
@@ -118,10 +133,28 @@ aside{
     
 
 }
+h3 {
+    text-align: center;
+    color: white;
+    font-family: 'amore';
+    font-size: 1.8em;
+    padding: 10px;
+}
 aside h3 {
+    text-align: left;
     font-family: 'amore';
     font-size: 1.5em;
 }
+aside p > a {
+    color: white;
+    text-decoration: none;
+    
+}
+aside p > a:hover {
+    text-decoration: underline;
+    background-color: white;
+}
+    
 aside ol {
     list-style-position: inside;
     columns: 2;
@@ -133,6 +166,16 @@ main footer {
     margin-top: 5px;
     
 
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    background-color: #400101;
+    border-radius: 5px;
+    padding: 5px;
 }
 * {
     margin: 0px;
