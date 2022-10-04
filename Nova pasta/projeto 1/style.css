@@ -46,7 +46,7 @@ header {
      background-image: linear-gradient(to bottom, #A60303, #400101);
       color: white;
       text-align: center;
-      font-family: 'Tangerine', cursive;
+      font-family: 'Tangerine', 'cursive';
       font-weight: 400;
       font-size: 2em;
       padding: 30px;
