@@ -9,15 +9,19 @@
 <body>
     <h1>Meu primeiro formulário</h1>
 
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="iNome">Nome:</label> 
+    <form method="post" action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="iNome">Nome:</label> 
             <input type="text" name="Nome" id="iNome">
         </p>
-        <p><label for="isobrenome">sobrenome:</label> 
+        <p>
+            <label for="isobrenome">sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome">
         </p>
 
-        <p><input type="submit" value="Enviar"></p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
     </form>
     
 </body>
